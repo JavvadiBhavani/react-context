@@ -1,0 +1,50 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  body {  
+    text-align: center;
+  }
+  li{
+    text-align: left;
+    font-size: 30px;
+  }
+  .myform {
+    height:100px;
+  }
+  input {
+    height:40px;
+    border-radius: 9px;
+    padding-right: 200px;
+  }
+  input::placeholder
+  {
+    font-size: large;
+  }
+  button {
+    font-size: large;
+    color: rgb(3, 56, 79);
+    border-radius: 5px;
+   margin-left: 10px;
+  }
+  button:hover{
+    color: rgb(62, 4, 79);
+    border-radius: 15px;  
+  }
+  li:hover {
+    text-decoration:underline;
+    color: rgb(92, 211, 7);
+  }
+  .dark-content {
+    color: rgb(188, 66, 10);
+  }
+  button.buttonClass {
+    background-color: rgb(1, 16, 19);   
+  }
+  .inputClass {
+    background-color: #e61010;
+  }
+  body {
+    background-image: url("https://tse2.mm.bing.net/th?id=OIP.QbwEzMSUnuDelXhLSYLszwHaE9&pid=Api&P=0&w=231&h=155");
+    background-size: cover;
+  }
